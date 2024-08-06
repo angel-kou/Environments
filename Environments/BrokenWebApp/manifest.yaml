@@ -7,7 +7,7 @@ runner: ARM
 templatePath: azuredeploy.json
 
 parameters:
-  - id: name
+  id: name
     name: Name
     description: 'Name of the Web App.'
     type: string
