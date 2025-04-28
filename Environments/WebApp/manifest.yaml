@@ -3,12 +3,12 @@ name: WebApp
 version: 1.0.0
 summary: Azure Web App Environment
 description: Deploys an Azure Web App without a data store
-runner: ARM
+runner: AR
 templatePath: azuredeploy.json
 
 parameters:
   - id: name
     name: Name
     description: 'Name of the Web App.'
-    type: strin
+    type: string
     required: true
